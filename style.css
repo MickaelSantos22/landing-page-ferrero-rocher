@@ -57,4 +57,15 @@ main {
     background-color: var(--color-primary);
     padding: 13px 69px;
     font-size: 2rem;
+    transition: .3s;
+}
+
+.action a:hover {
+    transform: scale(1.02)
+}
+
+.container-right {
+    background-image: url(assets/bombom-aberto.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
